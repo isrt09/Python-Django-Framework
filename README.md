@@ -13,7 +13,7 @@ Django is a Python-based free and open-source web framework that follows the mod
 - django-admin startproject [your_project_name]
 
 - python manage.py runserver [127.0.0.0:8000] [by Default]
-- python manage.py runserver 8080 [127.0.0.0:8000] [Custom Port]
+- python manage.py runserver 8080 [127.0.0.0:8080] [Custom Port]
 - python manage.py startup [your_app_name]
 
 - python manage.py migrate
