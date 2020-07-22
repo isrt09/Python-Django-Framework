@@ -20,3 +20,24 @@ Django is a Python-based free and open-source web framework that follows the mod
 - python manage.py createsuperuser
 - python manage.py makemigrations
 - python manage.py showmigrations
+
+- Major Topics Contents:
+
+  - MVT Design Pattern Overview
+  - Django Architechture
+  - URL & View Pattern
+  - App
+  - Templates
+  - URL's Pattern
+  - Include
+  - Render Context
+  - Passing data HTTP Response & Render
+  - Static Files
+  - Bootstrap Loading
+  - Template Inherit
+  - Template Mastering
+  - For Loop
+  - Migrate & Migrations
+  - SuperUser
+  - Django Admin
+  - Models
