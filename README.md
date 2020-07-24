@@ -43,4 +43,24 @@ Django is a Python-based free and open-source web framework that follows the mod
 - python manage.py makemigrations
 - python manage.py showmigrations
 
+# Working with QuerySets, Django ORM
+- Our Model is Post
+  - post.objects.get(username='admin')
+  
+  - post = Post(title='BMW')
+    post.save()
+  
+  - post.title = 'New Title'
+    post.save()
+  
+  - all_posts = Post.objects.all()
+  
+  - Post.objects.filter(publish_year=2020)
+  
+  - Post.objects.order_by('title')
+    Post.objects.order_by('-title')
+  
+  - post = Post.objects.get(id=1)
+    post.delete()
+
 
