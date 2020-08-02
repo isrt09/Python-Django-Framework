@@ -1,0 +1,23 @@
+Django Project Workflow : [ Created by 02 Aug, 2020 ]
+
+# py -m venv [name] [ Always follow virtual enviroment in Django Applications Project ]
+# cd [name]
+# cd Scripts/activate.bat
+# py -m pip install pip --upgrade pip
+# pip install django
+# django-admin startproject [name]
+# cd [name]
+# py manage.py runserver
+# py manage.py migrate
+# py manage.py createsuperuser --username [name]
+# [Type Email Address]
+# [Type Password]
+# [Confirm Password]
+# django-admin startapp [name]
+
+*** N.B.***
+If any changes in model or model class modifications, you have to run following commands
+# py manage.py makemigrations
+# py manage.py migrate
+# py manage.py runserver
+
